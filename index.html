@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando la IA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    </style>
+</head>
+
+<header>
+    <img src="img/logo.svg" alt="Logo" class="logo">
+    <nav class="nav-icons">
+        <a href="#" class="nav-link">
+            <img src="img/icono2.svg" alt="" width="50">
+        </a>
+        <a href="#" class="nav-link">
+            <img src="img/icono.svg" alt="" width="50">
+        </a>
+        <a href="#" class="nav-link">
+            <img src="img/icono3.svg" alt="" width="50">
+        </a>
+        <a href="#" class="nav-link">
+            <img src="img/icono1.svg" alt="" width="50">
+        </a>
+        <a href="#" class="nav-link">
+            <img src="img/icono4.svg" alt="" width="50">
+        </a>
+    </nav>
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Buscar...">
+        <button type="button" id="search-btn">🔍</button>
+    </div>    
+    <a href="#" class="nav-link">
+        <img src="img/login.svg" alt="Perfil" width="50">
+    </a>
+</header>
+
+<body>
+
+    <section class="intro-section">
+        <div class="overlay">
+            <h1>Wiki de Tecnologías Digitales</h1>
+            <p>Esta wiki ha sido creada por estudiantes apasionados por la tecnología. Aquí encontrarás información
+                detallada sobre diversos temas como desarrollo web, inteligencia artificial, servidores, accesibilidad y
+                herramientas esenciales en el mundo digital.</p>
+        </div>
+    </section>
+
+    <H1>Menú</H1>
+
+    <div class="menu">
+        <button class="tab-link active" data-category="all">Todos</button>
+        <button class="tab-link" data-category="desarrollo-web">Desarrollo Web</button>
+        <button class="tab-link" data-category="hosting">Hosting y Servidores</button>
+        <button class="tab-link" data-category="cms">Plataformas y CMS</button>
+        <button class="tab-link" data-category="ux-ui">UX/UI y Diseño</button>
+        <button class="tab-link" data-category="ia">Inteligencia Artificial y Automatización</button>
+        <button class="tab-link" data-category="seguridad">Ciberseguridad y Navegación</button>
+    </div>
+    
+    <div class="grid-container">
+        <!-- Desarrollo Web -->
+        <div class="grid-item" data-category="desarrollo-web">
+            <img src="img/compressed/1.webp" alt="HTML">
+            <a href="#">HTML</a>
+        </div>
+        <div class="grid-item" data-category="desarrollo-web">
+            <img src="img/compressed/2.webp" alt="CSS">
+            <a href="#">CSS</a>
+        </div>
+        <div class="grid-item" data-category="desarrollo-web">
+            <img src="img/compressed/3.webp" alt="JavaScript">
+            <a href="#">JavaScript</a>
+        </div>
+        <div class="grid-item" data-category="desarrollo-web">
+            <img src="img/compressed/4.webp" alt="Python">
+            <a href="#">Python</a>
+        </div>
+        <div class="grid-item" data-category="desarrollo-web">
+            <img src="img/compressed/22.webp" alt="ASP">
+            <a href="#">ASP</a>
+        </div>
+        <div class="grid-item" data-category="desarrollo-web">
+            <img src="img/compressed/23.webp" alt="Dreamweaver">
+            <a href="#">Dreamweaver</a>
+        </div>
+    
+        <!-- Hosting y Servidores -->
+        <div class="grid-item" data-category="hosting">
+            <img src="img/compressed/5.webp" alt="AWS">
+            <a href="#">AWS</a>
+        </div>
+        <div class="grid-item" data-category="hosting">
+            <img src="img/compressed/7.webp" alt="Hosting">
+            <a href="#">Hosting</a>
+        </div>
+        <div class="grid-item" data-category="hosting">
+            <img src="img/compressed/8.webp" alt="Dominios">
+            <a href="#">Dominios</a>
+        </div>
+        <div class="grid-item" data-category="hosting">
+            <img src="img/compressed/18.webp" alt="Servidor Web">
+            <a href="#">Servidor Web</a>
+        </div>
+        <div class="grid-item" data-category="hosting">
+            <img src="img/compressed/26.webp" alt="Servidor de Correo">
+            <a href="#">Servidor de Correo</a>
+        </div>
+        <div class="grid-item" data-category="hosting">
+            <img src="img/compressed/27.webp" alt="Servidor FTP">
+            <a href="#">Servidor FTP</a>
+        </div>
+    
+        <!-- Plataformas y CMS -->
+        <div class="grid-item" data-category="cms">
+            <img src="img/compressed/6.webp" alt="WIX">
+            <a href="#">WIX</a>
+        </div>
+        <div class="grid-item" data-category="cms">
+            <img src="img/compressed/10.webp" alt="WordPress">
+            <a href="#">WordPress</a>
+        </div>
+        <div class="grid-item" data-category="cms">
+            <img src="img/compressed/19.webp" alt="CMS">
+            <a href="#">CMS</a>
+        </div>
+        <div class="grid-item" data-category="cms">
+            <img src="img/compressed/20.webp" alt="Hostinger">
+            <a href="#">Hostinger</a>
+        </div>
+        <div class="grid-item" data-category="cms">
+            <img src="img/compressed/9.webp" alt="Páginas Dinámicas">
+            <a href="#">Páginas Dinámicas</a>
+        </div>
+    
+        <!-- UX/UI y Diseño -->
+        <div class="grid-item" data-category="ux-ui">
+            <img src="img/compressed/11.webp" alt="Accesibilidad">
+            <a href="#">Accesibilidad</a>
+        </div>
+        <div class="grid-item" data-category="ux-ui">
+            <img src="img/compressed/12.webp" alt="Wireframe">
+            <a href="#">Wireframe</a>
+        </div>
+        <div class="grid-item" data-category="ux-ui">
+            <img src="img/compressed/13.webp" alt="Mapa de navegación">
+            <a href="#">Mapa de navegación</a>
+        </div>
+        <div class="grid-item" data-category="ux-ui">
+            <img src="img/compressed/16.webp" alt="Imagen Corporativa">
+            <a href="#">Imagen Corporativa</a>
+        </div>
+        <div class="grid-item" data-category="ux-ui">
+            <img src="img/compressed/17.webp" alt="Jerarquía de textos">
+            <a href="#">Jerarquía de textos</a>
+        </div>
+    
+        <!-- Inteligencia Artificial y Automatización -->
+        <div class="grid-item" data-category="ia">
+            <img src="img/compressed/14.webp" alt="ChatGPT">
+            <a href="#">ChatGPT</a>
+        </div>
+        <div class="grid-item" data-category="ia">
+            <img src="img/compressed/15.webp" alt="Inteligencia Artificial">
+            <a href="#">Inteligencia Artificial</a>
+        </div>
+        <div class="grid-item" data-category="ia">
+            <img src="img/compressed/28.webp" alt="Copilot">
+            <a href="#">Copilot</a>
+        </div>
+        <div class="grid-item" data-category="ia">
+            <img src="img/compressed/29.webp" alt="Midjourney">
+            <a href="#">Midjourney</a>
+        </div>
+        <div class="grid-item" data-category="ia">
+            <img src="img/compressed/30.webp" alt="Sora">
+            <a href="#">Sora</a>
+        </div>
+    
+        <!-- Ciberseguridad y Navegación -->
+        <div class="grid-item" data-category="seguridad">
+            <img src="img/compressed/24.webp" alt="Fraudes Cibernéticos">
+            <a href="#">Fraudes Cibernéticos</a>
+        </div>
+        <div class="grid-item" data-category="seguridad">
+            <img src="img/compressed/25.webp" alt="Hackers">
+            <a href="#">Hackers</a>
+        </div>
+        <div class="grid-item" data-category="seguridad">
+            <img src="img/compressed/21.webp" alt="Navegadores Web">
+            <a href="#">Navegadores Web</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="newsletter">
+            <p>Suscríbete a nuestro newsletter</p>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Ingresa tu correo" required>
+                <button type="submit">Suscribirme</button>
+            </form>
+        </div>
+        <hr>
+        <div class="footer-content">
+            <div class="footer-column">
+                <ul style="list-style: none;">
+                    <li><a href="https://uvm.mx/la-uvm/rectoria">Rectoría</a></li>
+                    <li><a href="https://uvm.mx/filosofia-institucional">Filosofía Institucional</a></li>
+                    <li><a
+                            href="https://blog.uvm.mx/?_gl=1*1kk06y7*_gcl_aw*R0NMLjE3Mzk5OTczNTIuQ2p3S0NBaUFuOWE5QmhCdEVpd0FiS2c2Zms1NVNEeWYtRzBGQUVJMzFmd2VXUGxmLVF0MnUxcm5BYkJFY3pYdjhvWGFWVFp5M3NDYkdSb0NYZklRQXZEX0J3RQ..*_gcl_dc*R0NMLjE3Mzk5OTczNTIuQ2p3S0NBaUFuOWE5QmhCdEVpd0FiS2c2Zms1NVNEeWYtRzBGQUVJMzFmd2VXUGxmLVF0MnUxcm5BYkJFY3pYdjhvWGFWVFp5M3NDYkdSb0NYZklRQXZEX0J3RQ..*_gcl_au*MTE3NDk3NzAyMy4xNzM3NzkwMjYx*_ga*MTAwOTQ3NzY0My4xNzM3NzkwMjYx*_ga_XXR9NC5PSJ*MTczOTk5NzM0MC4zLjEuMTczOTk5NzM1Ni40NC4wLjMzMTIwMzA1OA..">Blog
+                            UVM</a></li>
+                    <li><a
+                            href="https://wa.me/525580113400?text=Hola%2C+estoy+viendo+la+p%C3%A1gina+de+internet+de+la+UVM+y+quiero+informaci%C3%B3n.">Asistente
+                            Lince</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <ul style="list-style: none;">
+                    <li><a
+                            href="https://ventanillaservicios.uvmnet.edu/PortalServicios/?__hstc=185013494.2c52cdd93828017d540cca4fc44df840.1737790263828.1737790263828.1739997343371.2&__hssc=185013494.2.1739997343371&__hsfp=387293752">Servicios
+                            en Línea</a></li>
+                    <li><a href="https://uvm.mx/aviso-de-privacidad">Aviso de Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-column social-media"> <a href="https://www.facebook.com/UVMmx"><img src="img/fb icon.svg"
+                        alt="" width="50"></a> <a href="https://x.com/UVMMEXICO"><img src="img/X icon}.svg" alt=""
+                        width="50"></a> <a href="https://www.instagram.com/uvmcomunidad"><img src="img/ig icon.svg"
+                        alt="" width="50"></a> </div>
+        </div>
+        <div class="footer-bottom">
+            <p>UVM Universidad del Valle de México, S.C., Av Marina Nacional 180, Anáhuac 1 sección, Delegación Miguel
+                Hidalgo, Ciudad de México, C.P. 11320.</p>
+            <p>2025 Copyright | Universidad del Valle de México</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tabs = document.querySelectorAll(".tab-link");
+            const items = document.querySelectorAll(".grid-item");
+    
+            tabs.forEach(tab => {
+                tab.addEventListener("click", function () {
+                    // Remover la clase 'active' de todas las pestañas
+                    tabs.forEach(t => t.classList.remove("active"));
+    
+                    // Agregar la clase 'active' a la pestaña seleccionada
+                    this.classList.add("active");
+    
+                    // Obtener la categoría seleccionada
+                    const category = this.getAttribute("data-category");
+    
+                    // Mostrar/Ocultar elementos según la categoría
+                    items.forEach(item => {
+                        if (category === "all" || item.getAttribute("data-category") === category) {
+                            item.style.display = "block";
+                        } else {
+                            item.style.display = "none";
+                        }
+                    });
+                });
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+        const searchInput = document.getElementById("search-input");
+        const items = document.querySelectorAll(".grid-item");
+
+        searchInput.addEventListener("keyup", function () {
+            let filter = searchInput.value.toLowerCase();
+
+            items.forEach(item => {
+                let title = item.querySelector("a").textContent.toLowerCase();
+                
+                if (title.includes(filter)) {
+                    item.style.display = "block";  // Mostrar si coincide
+                } else {
+                    item.style.display = "none";   // Ocultar si no coincide
+                }
+            });
+        });
+    });
+    </script>
+    </body>
+    </html>
+    
